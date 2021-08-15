@@ -1,0 +1,24 @@
+.idh1{
+    color: forestgreen; text-align: center;
+}
+h3{
+    text-align: center;
+}
+img{
+    float: left;padding: 10px;
+}
+p b{
+    font-weight: normal;
+}
+#id1{
+    text-transform: uppercase;
+}
+p{
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
