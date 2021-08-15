@@ -3,22 +3,14 @@ h1{
 }
 table{
     border: 1px solid black;
-}
-body{
-    align-content:center;
-}
-form{
-    padding-top: 25px;
-}
-table
-
-{ 
-
-margin-right: auto;
-
-margin-left: auto;
-
+    margin-right: auto;
+    margin-left: auto;
 }
 body{
     text-align: center;
 }
+form{
+    padding-top: 25px;
+}
+
+
