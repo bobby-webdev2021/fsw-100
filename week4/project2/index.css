@@ -1,11 +1,10 @@
-header{
-    background-color: #05013a;
+@import url(https://fonts.googleapis.com/css?family=Electrolize:regular);
+
+body{
+    background-color: rgb(7, 7, 48);
     width: auto;
-    height: 150vh;
-    
- 
 }
- img{
+#logo{
     float: left;
     margin: 20px;
 }
@@ -23,153 +22,86 @@ ul li a
     color: white;
     padding: 6px 20px;
     font-weight: 700;
+    font-family: Electrolize;
 }
 ul li a:hover{
     background-color: white;
     color: black;
-     
 }
 .title{
     color: white;
     font-size: 20px;
     margin-left: 20px;
+    text-align: center;
+    font-family: Electrolize;
+    width: 100%;
 }
-.title_p{
-    font-size: 44px;
-    font-weight: 600;
-    color: white;
-}
-.title_p2{
-    margin-bottom: 2px;
-    font-size: 14px;
-    line-height: 22px;
-    position: relative;
-    bottom: 7px;
-}
-.button
-{
-    
-   
-    margin-bottom: 20px;
-}
-
 #table{
     color: white;
+    font-family: Electrolize;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 14px;
+    
+}
+th, tr, td{
+    text-decoration: underline;
+}
+th{
     position: relative;
-    left: 70%;
-    bottom: 60%
-    
-}
-#wallet{
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 600px;
-    margin-top:  -300px;
-    margin-bottom: 100px
-}
-button{
-    margin-left: 90px;
-    margin-bottom: 600px;
-}
-
-.button{
-    background-color: blueviolet;
-}
-a{
-    color: lightcyan;
-    text-decoration: none;
-}
-#idw1{margin-top: 100px;
-    text-align: center;
-    color: white;
-    
-    
-}
-.divid{
-    color: white;
-    text-align: center;
-    margin-top: 100px;
-}
-input{
-    margin-left: 100px;
-    margin-top: 10px;
-}
-#divid{
-    margin-top: 40px;
-    margin-left: 350px;
-    color: white;
+    left: 100px;
 }
 footer{
-    background-color: #05013a;
     text-align: center;
     color: white;
-    margin-bottom: 20px;
+    position: relative;
+    top: 120px;
 }
-#h1{
-    color: white;
-    text-align: center;
-    padding-top: 2px;
+#top5{
     
-}
-p{
+    
+    
+    color: white;
+    margin-left:15px;
+    position:relative;
+    border: 2px solid;
+    width: 95%;
+    padding: 10px;
     margin-top: 20px;
-}
-#img2{
-    margin-left: 350px;
+    float: left;
+
     
-    margin-top: 60px;
-    height: 400px;
-   
     
-
+    font-family: Electrolize;
 }
-h3{
-    color: white;
+li{
+    padding-bottom: 5px;
 }
-
-
-
-
-
-
-
-	
-
-
-
-	
-
-	
-
-
-	
-
-
-
-
-
-
-
-	
-
-	
-
-	
-
-	
-
-	
-
-		
-
-	
-
-	
-
-		
-
-	
-
-
+#content{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main" 
+    "aside"
+    "footer footer";
+}
+header{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.umskrOEe4MtYadufDmUTwwHaEK&pid=Api&P=0&w=359&h=203);
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+  
+  
+}
+#ticker{
+    margin-right:  30px;
+    width: auto;
+    
+}
+#info{
+    margin-right: 20px;
+}
 
 
 
