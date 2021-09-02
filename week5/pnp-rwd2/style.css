@@ -3,7 +3,7 @@
     row-gap: 10px;
     column-gap: 10px;
     grid-template-columns:repeat(4, 1fr);
-    ;
+    
 }
 .boxContainer div{
     padding: 20px;
